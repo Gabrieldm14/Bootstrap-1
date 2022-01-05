@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Proyecto bootstrap: C#</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon4.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+  <!-- Navegador -->
+  <nav class="navbar navbar-expand-sm bg-info navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-black" href="index.html">
+        <img src="images/logo.png" alt="Logo" style="width:40px;" class="rounded-pill"> Inicio: <span class="badge me-3 p-2 bg-black text-white">Proyecto bootstrap</span>
+      </a>
+      <button class="navbar-toggler bg-white border-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="python.html">Python</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="java.html">Java</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javas.html">JavaScript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="cc.html">C#</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Formulario</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="pt-3 mt-2 text-center"><span class="badge bg-primary">Lenguajes de programación</span></h1>
+      <h2 class="text-center mb-4 text-secondary">C#</h2>
+      <div class="container text-center">
+        <!-- Boton de la ventana modal -->
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#estatico">
+          Resumen de contenido
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="estatico" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Resumen de contenido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Aquí contamos con barra de navegación, footer, iconos de redes sociales, vantana modal, imagenes, badges, botones, etc.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Omitir</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-4 mb-4 col-sm-3">
+        <img src="images/c.png" alt="C#" style="width:100%">
+      </div>
+      <h2>Índice de Contenidos:</h2>
+      <ol> 
+        <li><p><a class="text-decoration-none text-success" href="#primero"> ¿Qué es C# y para qué sirve?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#segundo"> ¿Qué es C#?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#tercero"> ¿Cuáles son las características del lenguaje de programación C#?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#cuarto"> ¿Cómo utilizar c#? </a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#quinto"> Aprende .NET Core </a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#sexto"> Tabla de marco de destino y versiones. </a></p></li>
+      </ol>
+      <h2 id="primero" class="text-danger">¿Qué es C# y para qué sirve?</h2>
+      <p>No podemos empezar a hablar de C# sin conocer el lenguaje C. C es el lenguaje más humano de programación que puede entender un ordenador. Su nombre viene de evolucionar un lenguaje anterior, llamado B, que se creó en los Laboratorios Bell, desarrollado originariamente por Dennis Ritchie, entre 1969 y 1972. Su característica principal es la eficiencia del código, y es empleado para crear sistemas operativos, aplicaciones e incluso juegos.
+      </p>
+        Ahora ya estamos preparado para saber todo sobre C#. ¡Vamos allá!
+        <h2 id="segundo" class="text-danger">¿Qué es C#?</h2>
+        <p>C# (léase C Sharp), es una evolución que Microsoft realizó de este lenguaje, tomando lo mejor de los lenguajes C y C++, y ha continuado añadiéndole funcionalidades, tomando de otros lenguajes, como java, algo de su sintaxis evolucionada. Lo orientó a objetos para toda su plataforma NET (tanto Framework como Core), y con el tiempo adaptó las facilidades de la creación de código que tenía otro de sus lenguajes más populares, Visual Basic, haciéndolo tan polivalente y fácil de aprender como éste, sin perder ni un ápice de la potencia original de C. En la versión de .NET Core, se ha reconstruido por completo su compilador, haciendo las aplicaciones un 600% más rápidas.
+        </p>
+        <div class="col-sm-3 col-lg-6 col-md-10">
+        <img src="images/cc.jpg" alt="C#" style="width: 100%;">
+        </div>
+        <h2 id="tercero" class="text-danger">¿Cuáles son las características del lenguaje de programación C#?</h2>
+        <p>No ha perdido la potencia original de C, es decir, se puede acceder a bajo nivel al núcleo de los sistemas operativos, trabajar con punteros a memoria (muchos desarrolladores tienen verdadero pánico a los punteros) e interactuar con elementos físicos de los dispositivos, como tarjetas gráficas o puertos USB, por ejemplo. De hecho, nunca antes fue tan sencillo trabajar con ficheros, soportando de forma nativa archivos XML.
+        </p>
+        <p>Además, como hemos comentado con anterioridad, C# es un lenguaje diseñado para su uso en .NET, cuyo objetivo de esta plataforma es crear aplicaciones de forma sencilla. Por tanto, este lenguaje se utiliza para diseñar aplicaciones en esta plataforma.
+        </p>
+        <p>Se hace hincapié en ello, ya que este lenguaje se diseñó expresamente para la plataforma .NET, por lo que las características de .NET serán las propias de este lenguaje de programación:
+        </p>
+        <ul>
+          <li>Sencillez: C# elimina gran cantidad de elementos que son innecesarios en .NET. Por ejemplo, no se incluyen elementos pocos útiles como macros, herencias múltiples o la necesidad de un operador distinto del punto.</li>
+          <li>Modernidad: C# Incorpora de forma automática e intuitiva en su lenguaje elementos que se han demostrado con el paso de los años que han sido muy útiles para el desarrollo de aplicaciones.</li>
+          <li>Seguridad: Incorpora mecanismo para asegurar que los accesos a tipos de datos se lleven a cabo de forma correcta, por lo que se evita que generen errores difíciles de detectar.</li>
+          <li>Sistemas de tipos unificados: Todos los datos que obtenemos al programar C# se guardan en una base para que se puedan volver a utilizar posteriormente.</li>
+          <li>Extensibilidad: puedes agregar tipos de datos básicos, operadores y modificadores cuando se vaya a programar.</li>
+          <li>Versionable: Dispone de actualización y mejora continua, permitiendo crear versiones de tipo sin tener miedo a que, con la incorporación de nuevos integrantes, provoquen errores complicados de detectar.</li>
+          <li> Compatible: C# mantiene una sintaxis muy parecida a C, C ++, Java y muchos otros lenguajes de programación, para facilitar el trabajo del programador.</li>
+          <li>Eficiente: a pesar de las restricciones que tiene C# en todo el código, se puede saltar estas restricciones utilizando objetos a través de punteros.</li>
+        </ul>
+            <h2 id="cuarto" class="text-danger">¿Cómo utilizar c#?</h2>
+        <p>Microsoft pone al alcance, de toda la comunidad planetaria de programadores, sus plataformas de desarrollo, como Visual Studio Code, de licencia gratuita (Freeware: no pagas por utilizarla), multiplataforma (para Windows, Linux y Mac OS), bajo el entorno .NET Core; y también Visual Studio (de pago), en sus versiones de 2017/2019, para Windows y Mac OS, bajo el entorno de .NET Framework. La diferencia entre ambos entornos es el destinatario final de las aplicaciones, siendo el último solo para Windows, mientras que el primero para las 3 plataformas mencionadas.
+        </p>
+        <p>trabajar con C# es recomendable utilizar Microsoft Visual Studio, ya que ha sido desarrollado especialmente para ello y soporta la carga y trabajo con su mismo lenguaje.
+        </p> 
+        <p>Por ello, nos descargamos Microsoft Visual Studio y ejecutamos el programa. Puede ocurrir que te pida la instalación de algunas librerías esenciales para un correcto funcionamiento del programa, que nos la podemos descargar gratuitamente desde Microsoft.
+        </p>
+        <p>Una vez ejecutado el programa, puedes crear un documento de tipo C# y ya puedes escribir en este código.
+        </p>
+        <h2 id="quinto" class="text-danger">Aprende .NET Core</h2>
+        <p>Actualmente el lenguaje C# es uno de los lenguajes que más vale la pena aprender, ya que es muy útil porque da soluciones a problemas que otros lenguajes de programación no son capaces de resolver. Además, es un lenguaje nativo de .NET.
+        </p>
+        <p>Cabe destacar que todos los productos actuales de Microsoft, incluida la nube, denominada AZURE, se les pueden desarrollar funcionalidades adicionales gracias a C#.
+        </p>
+        <p>Por todo ello, en Besoftware vamos a realizar un curso en .NET Core, una de las tecnologías más demandadas, en el que aprenderás todo sobre el lenguaje C# y mucho más.
+        </p>
+        <p><a href="https://bsw.es/que-es-c/">C#</a></p>
+        <table id="sexto" class="table table-responsive table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Marco de destino:</th>
+                  <th>Version:</th>
+                  <th>Versión predeterminada de lenguaje C#</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>.NET Standard</td>
+                  <td>2.1</td>
+                  <td>C# 8.0</td>
+              </tr>
+              <tr>
+                  <td>.NET Standard</td>
+                  <td>2.0</td>
+                  <td>C# 7.3</td>
+              </tr>
+              <tr>
+                  <td>.NET Standard</td>
+                  <td>1.x</td>
+                  <td>C# 7.3</td>
+              </tr>
+              <tr>
+                <td>.NET Framework</td>
+                <td>todo</td>
+                <td>C# 7.3</td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      <footer class="text-center footer-style bg-black text-white">
+        <div class="container">
+          <br>
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>Dirección del centro:</h3>
+                    <p>
+                      Antiguo Aeropuerto de los Estancos sn<br />
+                      35612, Las Palmas
+                    </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Mis redes:</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a  target="_blank" href="https://es-es.facebook.com/juanfelix.jimenezheredia" class="btn-social btn-outline"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://twitter.com/kairos_k7" class="btn-social btn-outline"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://www.instagram.com/kirito0007/" class="btn-social btn-outline"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Proyecto bootstrap ASIR 2ºAÑO LND.</h3>
+                    <p>C#</p>
+                </div>
+                <p class="text-center text-white"> Proyecto bootstrap ASIR 2ºAÑO LND.&#169; Juan Félix Jiménez Heredia.</p>
+            </div>
+        </div>
+    </footer>
+      </body>
+      </html>

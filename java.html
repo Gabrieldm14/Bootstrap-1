@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Proyecto bootstrap: Java</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon2.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+  <!-- Navegador -->
+  <nav class="navbar navbar-expand-sm bg-info navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-black" href="index.html">
+        <img src="images/logo.png" alt="Logo" style="width:40px;" class="rounded-pill"> Inicio: <span class="badge me-3 p-2 bg-black text-white">Proyecto bootstrap</span>
+      </a>
+      <button class="navbar-toggler bg-white border-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="python.html">Python</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="java.html">Java</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javas.html">JavaScript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cc.html">C#</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Formulario</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="pt-3 mt-2 text-center"><span class="badge bg-primary">Lenguajes de programación</span></h1>
+      <h2 class="text-center mb-4 text-secondary">Java</h2>
+      <div class="container text-center">
+        <!-- Boton de la ventana modal -->
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#estatico">
+          Resumen de contenido
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="estatico" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Resumen de contenido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Aquí contamos con barra de navegación, footer, iconos de redes sociales, vantana modal, imagenes, badges, botones, etc.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Omitir</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-4 mb-4 col-sm-3">
+        <img src="images/java.jpg" alt="C#" style="width:100%">
+      </div>
+      <h2>Índice de Contenidos:</h2>
+      <ol> 
+        <li><p><a class="text-decoration-none text-success" href="#primero"> ¿Qué es la tecnología Java y para qué la necesito?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#segundo"> ¿La descarga de Java es gratuita?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#tercero">¿Por qué debería actualizarme a la versión más reciente de Java?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#cuarto"> INFORMACIÓN TÉCNICA ADICIONAL </a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#quinto"> ¿Qué recibiré al descargar software de Java?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#sexto"> ¿Qué es el software del plugin de Java?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#septimo"> Conozca más sobre la tecnología Java</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#octavo"> Logotipo de Java</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#noveno"> ¿Por qué los desarrolladores de software eligen Java?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#decimo"> Formas en las que los desarrolladores de software aprenden a utilizar Java</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#decimoprimero"> Programa de formación en Java para jóvenes desarrolladores</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#decimosegundo"> Tabla contenido de versiones y distribuciones de Java.</a></p></li>
+      </ol>
+        <h2 id="primero" class="text-danger">¿Qué es la tecnología Java y para qué la necesito?</h2>
+      <p>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.
+      </p>
+       <h2 id="segundo" class="text-danger">¿La descarga de Java es gratuita?</h2>
+      <p>Sí, la descarga de Java es gratuita. Puede obtener la última versión en java.com.
+      </p>
+      <p>Si está diseñando un dispositivo de consumo o integrado y le gustaría incluir Java, póngase en contacto con Oracle para solicitar información sobre cómo incluir Java en su dispositivo.
+      </p>
+       <h2 id="tercero" class="text-danger"> ¿Por qué debería actualizarme a la versión más reciente de Java?</h2>
+      <p>La versión más reciente de Java contiene importantes mejoras para el rendimiento, estabilidad y seguridad de las aplicaciones Java que se ejecutan en su equipo. La instalación de la actualización gratuita garantiza que sus aplicaciones Java sigan ejecutándose de forma segura y eficaz.
+      </p>
+        <h3 id="cuarto" class="text-success">INFORMACIÓN TÉCNICA ADICIONAL</h3>
+        <h2 id="quinto" class="text-danger">¿Qué recibiré al descargar software de Java?</h2>
+      <p>Java Runtime Environment (JRE) es lo que se obtiene al descargar el software de Java. JRE está formado por Java Virtual Machine (JVM), clases del núcleo de la plataforma Java y bibliotecas de la plataforma Java de soporte. JRE es la parte de tiempo de ejecución del software de Java, que es todo lo que necesita para ejecutarlo en el explorador web.
+      </p>
+        <h2 id="sexto" class="text-danger">¿Qué es el software del plugin de Java?</h2>
+      <p>El software del plugin de Java es un componente de Java Runtime Environment. JRE permite applets escritos en el lenguaje de programación de Java para ejecutar en varios exploradores. El software del plugin de Java no es un programa autónomo y no se puede instalar de forma independiente.
+      </p>He leído las condiciones de Java Virtual Machine y de JVM. ¿Se trata de software de Java?
+      <p>Java Virtual Machine es sólo un aspecto del software de Java que interviene en interacción web. Java Virtual Machine está incorporado en la descarga del software de Java y ayuda a ejecutar las aplicaciones Java. 
+      </p>
+      <h2 id="septimo" class="text-danger">Conozca más sobre la tecnología Java</h2>
+      <p>Java es la base para prácticamente todos los tipos de aplicaciones de red, además del estándar global para desarrollar y distribuir aplicaciones móviles y embebidas, juegos, contenido basado en web y software de empresa. Con más de 9 millones de desarrolladores en todo el mundo, Java le permite desarrollar, implementar y utilizar de forma eficaz interesantes aplicaciones y servicios.
+      </p>
+      <p>Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.
+      </p>
+        <h3 id="octavo" class="text-success">Logotipo de Java</h3>
+      <ul>
+        <li>El 97% de los escritorios empresariales ejecutan Java</li>
+        <li>El 89% de los escritorios (o computadoras) en Estados Unidos ejecutan Java</li>
+        <li>9 millones de desarrolladores de Java en todo el mundo</li>
+        <li>La primera opción para los desarrolladores</li>
+        <li>La primera plataforma de desarrollo</li>
+        <li>3 mil millones de teléfonos móviles ejecutan Java</li>
+        <li>El 100% de los reproductores de Blu-ray incluyen Java</li>
+        <li>5 mil millones de Java Cards en uso</li>
+        <li>125 millones de dispositivos de televisión ejecutan Java</li>
+        <li>5 de los 5 principales fabricantes de equipos originales utilizan Java ME</li>
+      </ul>
+      <h2 id="noveno" class="text-danger">¿Por qué los desarrolladores de software eligen Java?</h2> 
+      <p>Java ha sido probado, ajustado, ampliado y probado por toda una comunidad de desarrolladores, arquitectos de aplicaciones y entusiastas de Java. Java está diseñado para permitir el desarrollo de aplicaciones portátiles de elevado rendimiento para el más amplio rango de plataformas informáticas posible. Al poner a disposición de todo el mundo aplicaciones en entornos heterogéneos, las empresas pueden proporcionar más servicios y mejorar la productividad, las comunicaciones y colaboración del usuario final y reducir drásticamente el costo de propiedad tanto para aplicaciones de usuario como de empresa. Java se ha convertido en un valor impagable para los desarrolladores, ya que les permite:
+      </p>
+      <ul>
+        <li>Escribir software en una plataforma y ejecutarla virtualmente en otra</li>
+        <li>Crear programas que se puedan ejecutar en un explorador y acceder a servicios Web disponibles</li>
+        <li>Desarrollar aplicaciones de servidor para foros en línea, almacenes, encuestas, procesamiento de formularios HTML y mucho más</li>
+        <li>Combinar aplicaciones o servicios que utilizan el lenguaje Java para crear aplicaciones o servicios con un gran nivel de personalización</li>
+        <li>Escribir aplicaciones potentes y eficaces para teléfonos móviles, procesadores remotos, microcontroladores, módulos inalámbricos, sensores, gateways, productos de consumo y prácticamente cualquier otro dispositivo electrónico</li>
+      </ul>
+      <h2 id="decimo" class="text-danger">Formas en las que los desarrolladores de software aprenden a utilizar Java</h2>
+      
+      <p>Registrarse en JavaOne Muchas universidades ofrecen cursos de programación sobre la plataforma Java. Oracle Academy ofrece una completa cartera de software, plan de estudios, tecnología alojada, formación de profesorado, soporte y recursos de certificación para instituciones educativas de primaria y secundaria, escuelas taller y centros de enseñanza superior para uso del profesorado, entre otras, una oferta Java con capacidad para cientos de miles de alumnos. Además, los desarrolladores también pueden mejorar sus conocimientos de programación Java consultando el sitio web de desarrolladores de Java de Oracle, suscribiéndose a los boletines sobre tecnología Java y Java Magazine, utilizando el tutorial de Java y el centro para nuevos usuarios de programación Java, además de suscribirse a certificaciones y cursos web, virtuales o dirigidos por instructores especializados.
+      </p>
+      <p>Logotipo de OTN Oracle Technology Network es la comunidad más grande del mundo de desarrolladores de aplicación, administradores del sistema, administradores de bases de datos, desarrolladores/administradores de sistemas y arquitectos que utilizan las tecnologías estándar del sector en combinación con productos de Oracle. También es donde está java.oracle.com, la fuente más actualizada, de mayor fiabilidad y completa de información técnica sobre Java. La suscripción es gratuita, participe ya (En el Perfil, active la casilla Oracle Technology Network que aparece debajo de Miembros de mi comunidad.)
+      </p>
+        <h2 id="decimoprimero" class="text-danger">Programa de formación en Java para jóvenes desarrolladores</h2>
+      <p>Desde pequeños, vamos aprendiendo lenguajes de programación. Herramientas educativas visuales como, por ejemplo, Alice, Greenfoot y BlueJ enseñan a los jóvenes a programar con el lenguaje de programación Java y otros lenguajes de programación basados en éste y pensados para facilitar su uso.
+      </p>
+      <p><a href="https://www.java.com/es/download/help/whatis_java.html">Web oficial de Java</a></p>
+      <table id="decimosegundo" class="table table-responsive table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Version:</th>
+                <th>Distribución:</th>
+                <th>información:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>J2SE / JavaSE</td>
+                <td>Java 2 Standard Edition o Java Standard Edition.</td>
+                <td><a href="https://internetpasoapaso.com/versiones-java/">Cronología</a></td>
+            </tr>
+            <tr>
+                <td>J2EE</td>
+                <td>Java 2 Enterprise Edition</td>
+                <td><a href="https://internetpasoapaso.com/versiones-java/">Cronología</a></td>
+            </tr>
+            <tr>
+                <td>J2ME:</td>
+                <td>Java 2 Micro Edition.</td>
+                <td><a href="https://internetpasoapaso.com/versiones-java/">Cronología</a></td>
+            </tr>
+        </tbody>
+    </table>
+      </div>
+      <footer class="text-center footer-style bg-black text-white">
+        <div class="container">
+          <br>
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>Dirección del centro:</h3>
+                    <p>
+                      Antiguo Aeropuerto de los Estancos sn<br />
+                      35612, Las Palmas
+                    </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Mis redes:</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a  target="_blank" href="https://es-es.facebook.com/juanfelix.jimenezheredia" class="btn-social btn-outline"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://twitter.com/kairos_k7" class="btn-social btn-outline"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://www.instagram.com/kirito0007/" class="btn-social btn-outline"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Proyecto bootstrap ASIR 2ºAÑO LND.</h3>
+                    <p>Java</p>
+                </div>
+                <p class="text-center text-white"> Proyecto bootstrap ASIR 2ºAÑO LND.&#169; Juan Félix Jiménez Heredia.</p>
+            </div>
+        </div>
+    </footer>
+      </body>
+      </html>

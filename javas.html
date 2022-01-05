@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Proyecto bootstrap: JavaScript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon3.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+  <!-- Navegador -->
+  <nav class="navbar navbar-expand-sm bg-info navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-black" href="index.html">
+        <img src="images/logo.png" alt="Logo" style="width:40px;" class="rounded-pill"> Inicio: <span class="badge me-3 p-2 bg-black text-white">Proyecto bootstrap</span>
+      </a>
+      <button class="navbar-toggler bg-white border-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="python.html">Python</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="java.html">Java</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="javas.html">JavaScript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cc.html">C#</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Formulario</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="pt-3 mt-2 text-center"><span class="badge bg-primary">Lenguajes de programación</span></h1>
+      <h2 class="text-center mb-4 text-secondary">JavaScript</h2>
+      <div class="container text-center">
+        <!-- Boton de la ventana modal -->
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#estatico">
+          Resumen de contenido
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="estatico" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Resumen de contenido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Aquí contamos con barra de navegación, footer, iconos de redes sociales, vantana modal, imagenes, badges, botones, etc.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Omitir</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-4 mb-4 col-sm-3">
+        <img src="images/javas.png" alt="C#" style="width:100%">
+      </div>
+      <h2>Índice de Contenidos:</h2>
+      <ol> 
+        <li><p><a class="text-decoration-none text-success" href="#primero"> ¿Qué es JavaScript?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#segundo"> ¿Para qué sirve JavaScript?</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#tercero"> Historia de JavaScript</a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#cuarto"> Aprender JavaScript Gratis </a></p></li>
+        <li><p><a class="text-decoration-none text-success" href="#quinto"> Tabla de versiones y información </a></p></li>
+      </ol>
+        <h2 class="text-primary">¿Qué es JavaScript y para qué sirve?</h2>
+        <h2 id="primero" class="text-danger">¿Que es JavaScript?</h2>
+        <p>JavaScript es el único lenguaje de programación que funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación). Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs.
+        </p>
+        <p>JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas web. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la web junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura).
+        </p>  
+        No conviene confundir JavaScript con Java, que es un lenguaje de programación muy diferente. La confusión proviene del nombre, registrado por la misma empresa creadora de Java (Sun Microsystems). JavaScript (JS) se creó posteriormente, y la empresa norteamericana lo que hizo simplemente fue cambiar el nombre que le habían puesto sus creadores al comprar el proyecto (LiveScript). El lenguaje de programación Java está orientado a muchas más cosas que la web desde sus inicios.
+        <h2 id="segundo" class="text-danger">¿Para qué sirve JavaScript?</h2>
+        <p>Con este lenguaje de programación del lado del cliente (no en el servidor) podemos crear efectos y animaciones sin ninguna interacción, o respondiendo a eventos causados por el propio usuario tales como botones pulsados y modificaciones del DOM (document object model). Por tanto, nada tiene que ver con el lenguaje de programación Java, ya que su principal función es ayudar a crear páginas webs dinámicas.
+        </p>
+        <p>El código de programación de JavaScript se ejecuta en los navegadores, ya sean de escritorio o móviles, ya sean Android o Iphone. Sirve para exactamente lo mismo, da igual en el tipo de dispositivo que se ejecute el navegador.
+        </p>
+        <p>JavaScript es capaz de detectar errores en formularios, de crear bonitos sliders que se adapten a cualquier pantalla, de hacer cálculos matemáticos de forma eficiente, de modificar elementos de una página web de forma sencilla. Pero también JS es el encargado de que existan herramientas como Google Analytics, Google Tag Manager, Facebook Pixel y tantas otras, que son claros ejemplos de JavaScript.
+        </p>
+        <p>Existe una tecnología llamada AJAX que permite intercambiar información con el servidor sin tener que recargar la página. Es decir, sólo cargamos de la página lo necesario. Esta tecnología desarrollada en JavaScript ha supuesto uno de los principales avances en el desarrollo web. Aunque no la sepamos reconocer, es la encargada de que podamos conseguir más mensajes, tweets, emails…sólo pulsando un botón, sin tener que recargar la página.
+        </p>
+        <p>JavaScript ahora mismo es el lenguaje más popular. De hecho, desde hace años se ha creado una versión que es capaz de ser ejecutada también en el lado del servidor (Node JS). Por tanto, ahora mismo se ejecuta JavaScript en los navegadores y en los servidores, creando a su alrededor una amplísima comunidad de desarrolladores casi full-stack. JavaScript del lado del servidor compite en igualdad de condiciones con PHP, por ejemplo.
+        </p>
+        <p>Como casi todo lenguaje de programación, podemos hacer programación orientada a objetos en JavaScript. Sin duda alguna, la forma en la que se crean, modifican y se muestran los objetos en el navegador ha sido uno de los grandes causantes de su auge.
+        </p>
+        <p>En la actualidad existen algunas prácticas, no demasiado recomendadas por los SEO, donde JS se encarga de numerosas funciones de estilo. Por ejemplo, muchos temas y plugins de WordPress utilizan scripts para hacer responsive el diseño web. Los navegadores modernos interpretan esto sin problemas, pero es posible que la araña de Google piense que no es la mejor manera de hacerlo.
+        </p>
+        <p>La librería de JavaScript más utilizada en la historia, y que todavía se sigue utilizando es jQuery. Con jQuery podíamos hacer más cosas, escribiendo menos. Con una sintaxis mucho más sencilla, podíamos modificar nuestro sitio web, crear plugins, animar videojuegos y muchas cosas más. En la actualidad, jQueey ha perdido espacio en favor otras tecnologías más modelas como React o Angular.
+        </p>
+          <h2 id="tercero" class="text-danger">Historia de JavaScript</h2>
+        <p>La historia de JavaScript empieza a comienzos de los 90, cuando los usuarios llegan a Internet y acceden a la Web gracias a los navegadores. Las conexiones entre los usuarios y las webs se hace a través de líneas muy lentas. Cuando el usuario quiere enviar información al servidor, si es incorrecta, tarda un tiempo en saberlo…y pierde la información.
+        </p>
+        <p>Los programadores tratan de conseguir validaciones en el navegador y así tener siempre envíos positivos y minimizar la pérdida de información. Esto fue una de las primeras motivaciones para crear JS, validar los formularios.
+        </p>
+        <p>El programador Brendan Eich comienza a colocar tareas del servidor en el navegador en una nueva versión de Netscape Navigator 2.0 (del año 95). Esta tarea cada vez fue más ambiciosa, y recibió el nombre de LiveScript. Cuando posteriormente Sun Microsystems compró Nestcape, le puso el nombre de JavaScript, muy parecido al nombre del lenguaje del lado del servidor (Java) que no tiene absolutamente nada que ver.
+        </p>
+        <p>La relación entre JavaScript y Java es puramente comercial, no hay relación a nivel de programación, no tienen nada que ver. Simplemente, la confusión surge por la compra de los creadores de Java del navegador Nestcape.
+        </p>
+        <p>JavaScript Historia
+        </p>
+        <p>Justo en este momento comienza la Guerra de los Navegadores, donde cada uno comienza a tener su propia versión de LiveScript, como Microsoft (JScript) que no era compatible. El principio del fin de la guerra se produce en 1997, cuando se crea el estándar ECMAScript por parte de varias empresas.
+        </p>
+        <p>Sin embargo, Internet Explorer comienza a potenciar su navegador con JavaScript, a aplicarlo a juegos, a mejorar la experiencia de usuario, a facilitar las tareas de los programadores…pero fuera del estándar.
+        </p>
+        <p>Sin embargo, para hacer esta tarea de compatibilidad más sencilla surgieron librerías como jQuery y otras muy semejantes. La librería jQuery permitía programar JavaScript de forma sencilla y compatible para todos los navegadores.
+        </p>
+        <p>Poco a poco, todos los navegadores tomaron el estándar (Internet Explorer, principalmente) y JavaScript se convirtió en un lenguaje de programación compatible con todos los navegadores, y la necesidad de utilizar jQuery fue menor.
+        </p>
+        <p>Posteriormente, se empezó a utilizar JavaScript en el lado del servidor (NodeJS) como sustituto de otros lenguajes como Java o PHP. A día de hoy se sigue avanzando mucho en esta tecnología.
+        </p>
+        <h2 id="cuarto" class="text-danger">Aprender JavaScript Gratis</h2>
+
+        <p>Es fácil aprender JavaScript gratis, hay muchos cursos en YouTube y en Udemy sobre cómo dar los primeros pasos de manera gratuita. Bien es cierto que para llegar a un nivel más alto habrá que pasar por caja, pero para el inicio recomiendo vídeos como éste de YouTube de Jon Mircha:
+        </p>
+        <p><a href="https://soyrafaramos.com/que-es-javascript-para-que-sirve/">JavaScript</a></p>
+        <table id="quinto" class="table table-responsive table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Nombre:</th>
+                  <th>Version del navegador:</th>
+                  <th>información</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>JavaScript 1.2</td>
+                  <td>Navegador 4.0-4.05</td>
+                  <td><a href="https://uniwebsidad.com/libros/javascript/capitulo-1/breve-historia">JavaScript</a></td>
+              </tr>
+              <tr>
+                  <td>JavaScript 1.3</td>
+                  <td>Navegador 4.06-4.7x</td>
+                  <td><a href="https://uniwebsidad.com/libros/javascript/capitulo-1/breve-historia">JavaScript</a></td>
+              </tr>
+              <tr>
+                  <td>JavaScript 1.4</td>
+                  <td>n/a</td>
+                  <td><a href="https://uniwebsidad.com/libros/javascript/capitulo-1/breve-historia">JavaScript</a></td>
+              </tr>
+              <tr>
+                <td>JavaScript 1.5</td>
+                <td>Navegador 6.0 Mozilla 0.6x-0.9x (navegador de código abierto)</td>
+                <td><a href="https://uniwebsidad.com/libros/javascript/capitulo-1/breve-historia">JavaScript</a></td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      <footer class="text-center footer-style bg-black text-white">
+        <div class="container">
+          <br>
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>Dirección del centro:</h3>
+                    <p>
+                      Antiguo Aeropuerto de los Estancos sn<br />
+                      35612, Las Palmas
+                    </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Mis redes:</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a  target="_blank" href="https://es-es.facebook.com/juanfelix.jimenezheredia" class="btn-social btn-outline"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://twitter.com/kairos_k7" class="btn-social btn-outline"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a  target="_blank" href="https://www.instagram.com/kirito0007/" class="btn-social btn-outline"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Proyecto bootstrap ASIR 2ºAÑO LND.</h3>
+                    <p>JavaScript</p>
+                </div>
+                <p class="text-center text-white"> Proyecto bootstrap ASIR 2ºAÑO LND.&#169; Juan Félix Jiménez Heredia.</p>
+            </div>
+        </div>
+    </footer>
+      </body>
+      </html>
